@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-02-18T11:11:18 IST" name="Default suite" finished-at="2020-02-18T11:13:03 IST" duration-ms="104516">
+    <groups>
+    </groups>
+    <test started-at="2020-02-18T11:11:18 IST" name="Default test" finished-at="2020-02-18T11:13:03 IST" duration-ms="104516">
+      <class name="org.test.selenium.FaceBookTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:org.test.selenium.FaceBookTest@2fd6b6c7]" started-at="2020-02-18T11:11:18 IST" name="setDriver" finished-at="2020-02-18T11:11:40 IST" duration-ms="21891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyLogin()[pri:0, instance:org.test.selenium.FaceBookTest@2fd6b6c7]" started-at="2020-02-18T11:11:40 IST" name="verifyLogin" finished-at="2020-02-18T11:13:03 IST" duration-ms="82230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="verifySuccess(org.testng.ITestContext)[pri:0, instance:org.test.selenium.FaceBookTest@2fd6b6c7]" started-at="2020-02-18T11:13:03 IST" name="verifySuccess" finished-at="2020-02-18T11:13:03 IST" duration-ms="242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d1a32f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccess -->
+      </class> <!-- org.test.selenium.FaceBookTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
